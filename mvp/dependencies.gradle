@@ -1,0 +1,13 @@
+ext.versions = [
+        buildTools : '28.0.3',
+        supportLibs: '28.0.0',
+        rxJava     : '2.2.0',
+        rxAndroid  : '2.1.0',
+]
+
+ext.libraries = [
+        appcompat: "com.android.support:appcompat-v7:$versions.supportLibs",
+        // RX
+        rxJava   : "io.reactivex.rxjava2:rxjava:$versions.rxJava",
+        rxAndroid: "io.reactivex.rxjava2:rxandroid:$versions.rxAndroid"
+]
